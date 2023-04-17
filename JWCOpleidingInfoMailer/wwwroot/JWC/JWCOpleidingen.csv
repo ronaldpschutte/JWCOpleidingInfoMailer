@@ -1,0 +1,455 @@
+﻿Id;Name;Level
+1;Betonboorder;3
+2;Allround betonreparateur;3
+3;Betonreparateur;2
+4;Allround betonstaalverwerker bouwplaats;3
+5;Allround betonstaalverwerker prefabricage;3
+6;Betonstaallasser;2
+7;Betonstaalvlechter;2
+8;Allround betontimmerman;3
+9;Betontimmerman;2
+10;Allround dakdekker bitumen en kunststof;3
+11;Allround dakdekker pannen/leien;3
+12;Allround dakdekker metaal;3
+13;Dakdekker bitumen en kunststof;2
+14;Monteur metalen daken en gevels;2
+15;Dakdekker pannen/leien;2
+16;Dakdekker riet;2
+17;Allround vakman gww;3
+18;Allround waterbouwer;3
+19;Balkman;3
+20;Straatmaker;3
+21;Asfaltafwerker;2
+22;Opperman bestratingen;2
+23;Vakman gww;2
+24;Waterbouwer;2
+25;Machinist grondverzet;3
+26;Machinist hijswerk;3
+27;Machinist wegenbouw;3
+28;Allround Metselaar;3
+29;Metselaar;2
+30;Middenkaderfunctionaris Bouw;4
+31;Middenkaderfunctionaris Infra;4
+32;Middenkaderfunctionaris Landmeetkunde;4
+33;Middenkaderfunctionaris Restauratie;4
+34;Middenkaderfunctionaris Verkeer en Stedenbouw;4
+35;Allround natuursteenbewerker;3
+36;Natuursteenbewerker machinaal;2
+37;Natuursteenbewerker ambachtelijk;2
+38;Allround sloper;3
+39;Sloper;2
+40;Eerste monteur steigerbouw;3
+41;Monteur steigerbouw;2
+42;Allround tegelzetter;3
+43;Tegelzetter;2
+44;Allround timmerman;3
+45;Timmerman;2
+46;Gevelbehandelaar voegbedrijf;2
+47;Voeger;2
+48;Vakman restauratie voegwerk;3
+49;Uitvoerder bouw/infra;4
+50;Uitvoerder gespecialiseerde aannemerij;4
+51;Uitvoerder hijswerk;4
+52;Werkvoorbereider fabricage;4
+53;Werkvoorbereider gespecialiseerde aannemerij;4
+54;Werkvoorbereider installaties;4
+55;Specialist Restauratie Timmerwerk;4
+56;Specialist Restauratie Metselwerk;4
+57;Middenkaderfunctionaris smart building;4
+58;Allround medewerker afvalbeheer;2
+59;Teamleider AMBOR;4
+60;Beheerder milieustraat;3
+61;Voorman BOR;3
+62;Allround medewerker beheer openbare ruimte;2
+63;Decoratiestukadoor;4
+64;Dekvloerenlegger;2
+65;Gezel dekvloerenlegger;3
+66;Gezel glaszetter;3
+67;Glaszetter;2
+68;Montagemedewerker houttechniek;2
+69;Machineoperator houttechniek;2
+70;Allround montagemedewerker houttechniek;3
+71;Allround machineoperator houttechniek;3
+72;Werkvoorbereider houttechniek;4
+73;Industrieel lakverwerker;2
+74;Vakkracht industrieel lakverwerker;3
+75;Interieurvakman woningstofferen ;2
+76;Interieurvakman parketvloeren ;2
+77;Allround interieurvakman woningstofferen;3
+78;Allround interieurvakman parketvloeren;3
+79;Vastgoedadviseur;4
+80;Uitvoerder;4
+81;Allround machinaal houtbewerker;3
+82;Machinaal houtbewerker;2
+83;Allround meubelmaker/(scheeps)interieurbouwer;3
+84;Ondernemend meubelmaker/(scheeps)interieurbouwer;4
+85;Werkvoorbereider meubelindustrie/(scheeps)interieurbouw;4
+86;Meubelmaker/(scheeps)interieurbouwer;2
+87;Allround meubelstoffeerder;3
+88;Meubelstoffeerder;2
+89;Allround vakkracht onderhoud- en klussenbedrijf;3
+90;Servicemedewerker gebouwen;2
+91;Plafond- en wandmonteur;2
+92;Gezel schilder;3
+93;Schilder;2
+94;(Ambulant) objectleider;3
+95;Specialist vloeronderhoud;3
+96;Glazenwasser;2
+97;Meewerkend leidinggevende algemeen schoonmaakonderhoud;2
+98;Schoonmaker in verschillende omgevingen;2
+99;Decoratie- en restauratieschilder;4
+100;Gezel stukadoor;3
+101;Stukadoor;2
+102;Eerste monteur elektrotechnische industriële installaties en systemen;3
+103;Eerste monteur elektrotechnische installaties in de gebouwde omgeving;3
+104;Monteur elektrotechnische installaties;2
+105;Technicus elektrotechnische industriële systemen en installaties;4
+106;Technicus elektrotechnische installaties in de gebouwde omgeving;4
+107;Systeemontwerper koude- en klimaatsystemen;4
+108;Technicus human technology;4
+109;Medewerker Operationele techniek;2
+110;Mechanisch operator A;2
+111;Mechanisch operator B;3
+112;Procesoperator A;2
+113;Procesoperator B;3
+114;Eerste monteur datadistributie;3
+115;Eerste monteur gas-, water- of warmtedistributie;3
+116;Eerste monteur laagspanningsdistributie;3
+117;Eerste monteur middenspanningsdistributie;3
+118;Monteur datadistributie;2
+119;Monteur gas-, water- of warmtedistributie;2
+120;Monteur laagspanningsdistributie;2
+121;Monteur middenspanningsdistributie;2
+122;Technicus data;4
+123;Technicus elektrotechniek;4
+124;Technicus gas;4
+125;Technicus water;4
+126;Isolatiemonteur;2
+127;Opmeter technische isolatie;3
+128;Airco/warmtepompmonteur;2
+129;Technicus maintenance koude- en klimaatsystemen;4
+130;Eerste monteur koude- en klimaatsystemen;3
+131;Servicemonteur koude- en klimaatsystemen;3
+132;Monteur koude- en klimaatsystemen;2
+133;Eerste monteur elektrotechnische systemen;3
+134;Eerste monteur mechatronica;3
+135;Monteur elektrotechnische systemen;2
+136;Monteur mechatronica;2
+137;Technicus elektrotechnische systemen;4
+138;Technicus mechatronica systemen;4
+139;Allround constructiewerker;3
+140;Allround lasser;3
+141;Allround pijpenbewerker;3
+142;Allround plaatwerker;3
+143;Scheepsbouwer;3
+144;Basislasser;2
+145;Constructiewerker;2
+146;Pijpenbewerker;2
+147;Plaatwerker;2
+148;Scheepsmetaalbewerker;2
+149;Constructie- en plaattechnoloog;4
+150;Commercieel technicus engineering;4
+151;Technicus engineering;4
+152;Allround operationeel technicus;4
+153;Operationeel technicus;3
+154;Verspaner;2
+155;Allround precisieverspaner;3
+156;Instrumentmaker;3
+157;Researchinstrumentmaker;4
+158;Verspaningstechnoloog;4
+159;Operator C;4
+160;Eerste monteur service en onderhoud elektrotechniek en instrumentatie;3
+161;Eerste monteur service en onderhoud gasturbines;3
+162;Eerste monteur service en onderhoud werktuigbouw;3
+163;Eerste monteur service en onderhoud werktuigkundige installaties;3
+164;Monteur service en onderhoud installaties en systemen;2
+165;Technicus service en onderhoud elektrotechniek en instrumentatie;4
+166;Technicus service en onderhoud werktuigbouw;4
+167;Technicus service en onderhoud werktuigkundige installaties;4
+168;Tekenaar constructeur;4
+169;Tekenaar ontwerper elektrotechniek;4
+170;Tekenaar ontwerper werktuigkundige installaties;4
+171;Tekenaar werktuigbouw;3
+172;Tekenaar werktuigkundige installaties;3
+173;Kunststofbewerker vliegtuigbouw;2
+174;Plaatwerker vliegtuigbouw;2
+175;Samenbouwer vliegtuigbouw;2
+176;Constructie repair specialist;3
+177;Technicus avionica;4
+178;Technicus mechanica;4
+179;Eerste monteur vliegtuigonderhoud;3
+180;Monteur vliegtuigonderhoud;2
+181;Eerste monteur dakbedekking;3
+182;Eerste monteur utiliteit;3
+183;Eerste monteur woning;3
+184;Monteur werktuigkundige installaties;2
+185;Middenkaderfunctionaris smart industry;4
+186;Allround laborant;3
+187;Biologisch medisch analist;4
+188;Chemisch-fysisch analist;4
+189;Audicien;4
+190;Creatief vakman;4
+191;Basisgoudsmid;3
+192;Goudsmid;4
+193;Zilversmid;4
+194;Juwelier;4
+195;Medewerker Juwelier;3
+196;Medewerker Steriele Medische Hulpmiddelen;3
+197;Allround Medewerker Optiek;3
+198;Opticien;4
+199;Verkoopmedewerker Optiek;2
+200;Leestenmaker;3
+201;Orthopedisch Schoentechnicus;4
+202;Schoentechnisch Voorzieningenmaker;2
+203;Orthopedisch Technicus;4
+204;Orthopedisch Technisch Medewerker;3
+205;Pianotechnicus;4
+206;Maatschoenmaker;4
+207;Schoenhersteller 3;3
+208;Zadel- en tuigenmaker;3
+209;Schoenhersteller 2;2
+210;Tandtechnicus kroon- en brugwerk;4
+211;Tandtechnicus prothese;4
+212;Tandtechnisch medewerker basistechnieken;3
+213;Technisch Oogheelkundig Assistent;4
+214;Medewerker Uurwerktechniek;3
+215;Uurwerktechnicus;4
+216;Vormenmaker;3
+217;Allround medewerker AV-productie;3
+218;AV-specialist;4
+219;Fotograaf;4
+220;Medewerker fotografie;2
+221;Mediamaker;2
+222;Allround mediamaker;3
+223;Mediamanager;4
+224;Mediaredactiemedewerker;4
+225;Mediavormgever;4
+226;Allround podium- en evenemententechnicus;4
+227;Medewerker podium- en evenemententechniek;2
+228;Podium- en evenemententechnicus;3
+229;Basismedewerker printmedia;2
+230;Drukker;3
+231;Nabewerker;3
+232;Medewerker productpresentatie;2
+233;Ruimtelijk vormgever;4
+234;Allround signmaker;3
+235;Signspecialist;4
+236;Medewerker sign;2
+237;Allround stand- en decorbouwer;3
+238;Stand- en decorbouwer;2
+239;Software developer;4
+240;Allround medewerker IT systems and devices;3
+241;Expert IT systems and devices;4
+242;Medewerker ICT support;2
+243;Adviseur mobiliteitsbranche;3
+244;Manager mobiliteitsbranche;4
+245;Assemblagetechnicus;2
+246;Eerste Carrosseriebouwer;3
+247;Carrosseriebouwer;2
+248;Eerste Caravantechnicus;3
+249;Caravantechnicus;2
+250;Autoschadehersteller;2
+251;Eerste Autoschadehersteller;3
+252;Eerste Autoschadetechnicus;3
+253;Autospuiter;2
+254;Eerste Autospuiter;3
+255;Eerste Fietstechnicus;3
+256;Fietstechnicus;2
+257;Technisch specialist voertuigen en mobiele werktuigen;4
+258;Basis technicus voertuigen en mobiele werktuigen;2
+259;Allround technicus voertuigen en mobiele werktuigen;3
+260;Eerste verbrandingsmotortechnicus;3
+261;Technisch specialist verbrandingsmotoren;4
+262;Verbrandingsmotortechnicus;2
+263;Luchtvaartdienstverlener;4
+264;Chauffeur wegvervoer;2
+265;Coördinator havenlogistiek;3
+266;Manager havenlogistiek;4
+267;Medewerker havenlogistiek;2
+268;Coördinator Havenoperaties;4
+269;Gevorderd medewerker Havenoperaties;3
+270;Medewerker Havenoperaties;2
+271;Logistiek medewerker;2
+272;Logistiek teamleider;3
+273;Air cargo specialist;4
+274;Logistiek supervisor;4
+275;Specialist transport en logistiek ;4
+276;Medewerker maritieme techniek;2
+277;Allround medewerker maritieme techniek;3
+278;Engineer maritieme techniek;4
+279;Aviation operations specialist;4
+280;Chauffeur openbaar vervoer;2
+281;Touringcarchauffeur/reisleider;3
+282;Taxichauffeur;2
+283;Touringcarchauffeur;2
+284;Machinist railvervoer;3
+285;Schipper rondvaartboot beperkt vaargebied;2
+286;Matroos binnenvaart;2
+287;Schipper binnenvaart;3
+288;Kapitein binnenvaart;4
+289;Bootman;3
+290;Schipper-machinist beperkt werkgebied;2
+291;Maritiem officier kleine schepen nautisch, koopvaardij;3
+292;Maritiem officier kleine schepen nautisch, visserij;3
+293;Maritiem officier kleine schepen technisch;3
+294;Maritiem officier alle schepen nautisch, koopvaardij;4
+295;Maritiem officier alle schepen nautisch, waterbouw;4
+296;Maritiem officier alle schepen nautisch, visserij ;4
+297;Maritiem officier alle schepen technisch;4
+298;Stuurman-werktuigkundige zeevisvaart SW6 ;2
+299;Retailspecialist;3
+300;Assistant Fashion Tailor;3
+301;Fashion Retailer;3
+302;Fashion Tailor;4
+303;Fashion Designer ;4
+304;Fashion Product Coordinator  ;4
+305;Basismedewerker fashion;2
+306;Interieuradviseur;4
+307;Leidinggevende team/afdeling/project;4
+308;Technisch Leidinggevende;4
+309;Retailmanager;4
+310;Vakman-ondernemer;4
+311;Ondernemer retail;4
+312;Retailmedewerker;2
+313;Bibliotheekmedewerker;4
+314;(Junior) accountmanager;4
+315;Assistent-manager internationale handel;4
+316;Intercedent;4
+317;Vestigingsmanager groothandel;4
+318;Commercieel medewerker;3
+319;Contactcenter medewerker;3
+320;Medewerker evenementenorganisatie;4
+321;Allround Assistant Business Services;3
+322;Assistant Business Services;2
+323;Business Administration & Control Specialist;4
+324;Legal, Insurance & HR Services Specialist;4
+325;Marketing & Communication Specialist;4
+326;Office & Management Support Specialist;4
+327;Beveiliger 2;2
+328;Beveiliger 3;3
+329;Handhaver toezicht en veiligheid;3
+330;Medewerker toezicht en veiligheid;2
+331;Coördinator buurt, onderwijs en sport;4
+332;Coördinator sport- en bewegingsagogie;4
+333;Coördinator sport, bewegen en gezondheid;4
+334;Coördinator sportinstructie, training en coaching;4
+335;Sport- en bewegingsleider;3
+336;Aankomend medewerker grondoptreden;2
+337;Aankomend onderofficier grondoptreden;3
+338;Aankomend medewerker maritiem;2
+339;Aankomend onderofficier maritiem;3
+340;Kapper;2
+341;Haarstylist dame;3
+342;Haarstylist heer;3
+343;Salonmanager dame;4
+344;Salonmanager heer;4
+345;Allround make-up and hair artist;4
+346;Allround Schoonheidsspecialist;4
+347;Schoonheidsspecialist;3
+348;Medisch Pedicure;4
+349;Pedicure;3
+350;Gastheer/-vrouw;2
+351;Gastronoom/sommelier;4
+352;Leidinggevende bediening;4
+353;Zelfstandig werkend gastheer/-vrouw;3
+354;Boulanger;4
+355;Leidinggevende bakkerij;4
+356;Uitvoerend bakker;2
+357;Zelfstandig werkend bakker;3
+358;Facilitair leidinggevende;4
+359;Allround medewerker facilitaire dienstverlening ;3
+360;1e Medewerker fastservice;3
+361;Manager/bedrijfsleider fastservice;4
+362;Medewerker fastservice;2
+363;Gespecialiseerd kok;4
+364;Leidinggevende keuken;4
+365;Zelfstandig werkend kok;3
+366;Kok;2
+367;Manager/ondernemer horeca;4
+368;Meewerkend horeca ondernemer;4
+369;Ondernemer bakkerij;4
+370;Patissier;4
+371;Leidinggevende leisure & hospitality;4
+372;Leidinggevende travel & hospitality;4
+373;Zelfstandig medewerker leisure & hospitality;3
+374;Zelfstandig medewerker travel & hospitality;3
+375;Apothekersassistent;4
+376;Acteur;4
+377;Danser;4
+378;Musicalperformer;4
+379;Muzikant;4
+380;Helpende Zorg en Welzijn;2
+381;Medewerker facilitaire dienstverlening;2
+382;Medewerker sport en recreatie;2
+383;Doktersassistent;4
+384;Begeleider maatschappelijke zorg;3
+385;Persoonlijk begeleider maatschappelijke zorg;4
+386;Mbo-Verpleegkundige;4
+387;Pedagogisch medewerker kinderopvang;3
+388;Gespecialiseerd pedagogisch medewerker;4
+389;Onderwijsassistent;4
+390;Praktijkopleider;4
+391;Sociaal werker;4
+392;Tandartsassistent;4
+393;Verzorgende IG;3
+394;Instructeur mbo;4
+395;Ondernemer vers;4
+396;Productieleider versindustrie;4
+397;Medewerker vers;2
+398;Traiteur vers;3
+399;Vakbekwaam medewerker vers;3
+400;Allround medewerker versindustrie;3
+401;Medewerker versindustrie;2
+402;Medewerker agrarisch loonwerk;2
+403;Vakexpert agrarisch loonwerk;4
+404;Vakexpert agrohandel en logistiek;4
+405;Vakexpert biologisch-dynamische landbouw;4
+406;Vakexpert teelt en groene technologie;4
+407;Vakexpert veehouderij;4
+408;Vakbekwaam medewerker agrarisch loonwerk;3
+409;Vakbekwaam medewerker agrohandel en logistiek;3
+410;Vakbekwaam medewerker teelt;3
+411;Vakbekwaam medewerker veehouderij;3
+412;Medewerker agrohandel en logistiek;2
+413;Medewerker teelt;2
+414;Medewerker veehouderij;2
+415;Bedrijfsleider/ondernemer bloem, groen en styling;4
+416;Vakexpert bloem, groen en styling;4
+417;Vakbekwaam medewerker bloem, groen en styling;3
+418;Medewerker bloem, groen en styling;2
+419;Boomverzorger;3
+420;Specialist vruchtbaarheid en voortplanting;4
+421;Specialist proefdierverzorging;4
+422;Medewerker groen en cultuurtechniek;2
+423;Opzichter/uitvoerder groene ruimte;4
+424;Vakbekwaam hovenier;3
+425;Vakbekwaam medewerker groen en cultuurtechniek;3
+426;Vakbekwaam medewerker natuur, water en recreatie;3
+427;Medewerker hovenier;2
+428;Medewerker natuur, water en recreatie;2
+429;Hoefsmid;3
+430;Bedrijfsleider paardensport en -houderij;4
+431;Instructeur paardensport en -houderij;4
+432;Vakbekwaam medewerker paardensport en -houderij;3
+433;Bedrijfsleider dierverzorging;4
+434;Dierenartsassistent paraveterinair;4
+435;Medewerker dierverzorging;2
+436;Proefdierverzorger;3
+437;Zelfstandig medewerker dierverzorging;3
+438;Onderzoeker leefomgeving;4
+439;Adviseur leefomgeving;4
+440;Medewerker voeding en technologie;2
+441;Vakexpert voeding en kwaliteit;4
+442;Vakexpert voeding en technologie;4
+443;Vakexpert voeding en voorlichting;4
+444;Vakbekwaam medewerker voeding en technologie;3
+445;Persoonlijk begeleider zorgboerderij;4
+446;Assistent bouwen, wonen en onderhoud;1
+447;Assistent dienstverlening;1
+448;Assistent horeca, voeding of voedingsindustrie;1
+449;Assistent logistiek;1
+450;Assistent metaal-, elektro- en installatietechniek;1
+451;Assistent mobiliteitsbranche;1
+452;Assistent plant, dier of groene omgeving;1
+453;Assistent procestechniek;1
+454;Assistent verkoop/retail;1

@@ -1,0 +1,455 @@
+﻿Crebonummer;Kwalificatie;Niveau;Soort
+25078;Betonboorder;3;vakopleiding
+25079;Allround betonreparateur;3;vakopleiding
+25080;Betonreparateur;2;basisberoepsopleiding
+25081;Allround betonstaalverwerker bouwplaats;3;vakopleiding
+25082;Allround betonstaalverwerker prefabricage;3;vakopleiding
+25083;Betonstaallasser;2;basisberoepsopleiding
+25084;Betonstaalvlechter;2;basisberoepsopleiding
+25085;Allround betontimmerman;3;vakopleiding
+25125;Betontimmerman;2;basisberoepsopleiding
+25086;Allround dakdekker bitumen en kunststof;3;vakopleiding
+25087;Allround dakdekker pannen/leien;3;vakopleiding
+25542;Allround dakdekker metaal;3;vakopleiding
+25088;Dakdekker bitumen en kunststof;2;basisberoepsopleiding
+25543;Monteur metalen daken en gevels;2;basisberoepsopleiding
+25089;Dakdekker pannen/leien;2;basisberoepsopleiding
+25090;Dakdekker riet;2;basisberoepsopleiding
+25750;Allround vakman gww;3;vakopleiding
+25751;Allround waterbouwer;3;vakopleiding
+25753;Balkman;3;vakopleiding
+25755;Straatmaker;3;vakopleiding
+25752;Asfaltafwerker;2;basisberoepsopleiding
+25754;Opperman bestratingen;2;basisberoepsopleiding
+25756;Vakman gww;2;basisberoepsopleiding
+25757;Waterbouwer;2;basisberoepsopleiding
+25099;Machinist grondverzet;3;vakopleiding
+25558;Machinist hijswerk;3;vakopleiding
+25101;Machinist wegenbouw;3;vakopleiding
+25785;Allround Metselaar;3;vakopleiding
+25786;Metselaar;2;basisberoepsopleiding
+25104;Middenkaderfunctionaris Bouw;4;middenkaderopleiding
+25105;Middenkaderfunctionaris Infra;4;middenkaderopleiding
+25106;Middenkaderfunctionaris Landmeetkunde;4;middenkaderopleiding
+25107;Middenkaderfunctionaris Restauratie;4;middenkaderopleiding
+25108;Middenkaderfunctionaris Verkeer en Stedenbouw;4;middenkaderopleiding
+25109;Allround natuursteenbewerker;3;vakopleiding
+25111;Natuursteenbewerker machinaal;2;basisberoepsopleiding
+25113;Natuursteenbewerker ambachtelijk;2;basisberoepsopleiding
+25114;Allround sloper;3;vakopleiding
+25115;Sloper;2;basisberoepsopleiding
+25126;Eerste monteur steigerbouw;3;vakopleiding
+25127;Monteur steigerbouw;2;basisberoepsopleiding
+25826;Allround tegelzetter;3;vakopleiding
+25827;Tegelzetter;2;basisberoepsopleiding
+25828;Allround timmerman;3;vakopleiding
+25829;Timmerman;2;basisberoepsopleiding
+25129;Gevelbehandelaar voegbedrijf;2;basisberoepsopleiding
+25130;Voeger;2;basisberoepsopleiding
+25504;Vakman restauratie voegwerk;3;vakopleiding
+25119;Uitvoerder bouw/infra;4;middenkaderopleiding
+25120;Uitvoerder gespecialiseerde aannemerij;4;middenkaderopleiding
+25121;Uitvoerder hijswerk;4;middenkaderopleiding
+25122;Werkvoorbereider fabricage;4;middenkaderopleiding
+25123;Werkvoorbereider gespecialiseerde aannemerij;4;middenkaderopleiding
+25124;Werkvoorbereider installaties;4;middenkaderopleiding
+25505;Specialist Restauratie Timmerwerk;4;specialistenopleiding
+25506;Specialist Restauratie Metselwerk;4;specialistenopleiding
+25836;Middenkaderfunctionaris smart building;4;middenkaderopleiding
+25001;Allround medewerker afvalbeheer;2;basisberoepsopleiding
+25042;Teamleider AMBOR;4;middenkaderopleiding
+25041;Beheerder milieustraat;3;vakopleiding
+25043;Voorman BOR;3;vakopleiding
+25002;Allround medewerker beheer openbare ruimte;2;basisberoepsopleiding
+25570;Decoratiestukadoor;4;specialistenopleiding
+25003;Dekvloerenlegger;2;basisberoepsopleiding
+25004;Gezel dekvloerenlegger;3;vakopleiding
+25005;Gezel glaszetter;3;vakopleiding
+25006;Glaszetter;2;basisberoepsopleiding
+25583;Montagemedewerker houttechniek;2;basisberoepsopleiding
+25584;Machineoperator houttechniek;2;basisberoepsopleiding
+25585;Allround montagemedewerker houttechniek;3;vakopleiding
+25586;Allround machineoperator houttechniek;3;vakopleiding
+25587;Werkvoorbereider houttechniek;4;middenkaderopleiding
+25010;Industrieel lakverwerker;2;basisberoepsopleiding
+25011;Vakkracht industrieel lakverwerker;3;vakopleiding
+25659;Interieurvakman woningstofferen ;2;basisberoepsopleiding
+25660;Interieurvakman parketvloeren ;2;basisberoepsopleiding
+25661;Allround interieurvakman woningstofferen;3;vakopleiding
+25662;Allround interieurvakman parketvloeren;3;vakopleiding
+25772;Vastgoedadviseur;4;middenkaderopleiding
+25773;Uitvoerder;4;middenkaderopleiding
+25015;Allround machinaal houtbewerker;3;vakopleiding
+25016;Machinaal houtbewerker;2;basisberoepsopleiding
+25017;Allround meubelmaker/(scheeps)interieurbouwer;3;vakopleiding
+25019;Ondernemend meubelmaker/(scheeps)interieurbouwer;4;middenkaderopleiding
+25020;Werkvoorbereider meubelindustrie/(scheeps)interieurbouw;4;middenkaderopleiding
+25018;Meubelmaker/(scheeps)interieurbouwer;2;basisberoepsopleiding
+25021;Allround meubelstoffeerder;3;vakopleiding
+25022;Meubelstoffeerder;2;basisberoepsopleiding
+25791;Allround vakkracht onderhoud- en klussenbedrijf;3;vakopleiding
+25792;Servicemedewerker gebouwen;2;basisberoepsopleiding
+25027;Plafond- en wandmonteur;2;basisberoepsopleiding
+25588;Gezel schilder;3;vakopleiding
+25589;Schilder;2;basisberoepsopleiding
+25031;(Ambulant) objectleider;3;vakopleiding
+25035;Specialist vloeronderhoud;3;vakopleiding
+25032;Glazenwasser;2;basisberoepsopleiding
+25033;Meewerkend leidinggevende algemeen schoonmaakonderhoud;2;basisberoepsopleiding
+25034;Schoonmaker in verschillende omgevingen;2;basisberoepsopleiding
+25036;Decoratie- en restauratieschilder;4;middenkaderopleiding
+25037;Gezel stukadoor;3;vakopleiding
+25038;Stukadoor;2;basisberoepsopleiding
+25735;Eerste monteur elektrotechnische industriële installaties en systemen;3;vakopleiding
+25736;Eerste monteur elektrotechnische installaties in de gebouwde omgeving;3;vakopleiding
+25737;Monteur elektrotechnische installaties;2;basisberoepsopleiding
+25738;Technicus elektrotechnische industriële systemen en installaties;4;middenkaderopleiding
+25739;Technicus elektrotechnische installaties in de gebouwde omgeving;4;middenkaderopleiding
+25565;Systeemontwerper koude- en klimaatsystemen;4;middenkaderopleiding
+25265;Technicus human technology;4;middenkaderopleiding
+25334;Medewerker Operationele techniek;2;basisberoepsopleiding
+25759;Mechanisch operator A;2;basisberoepsopleiding
+25760;Mechanisch operator B;3;vakopleiding
+25761;Procesoperator A;2;basisberoepsopleiding
+25762;Procesoperator B;3;vakopleiding
+25763;Eerste monteur datadistributie;3;vakopleiding
+25764;Eerste monteur gas-, water- of warmtedistributie;3;vakopleiding
+25765;Eerste monteur laagspanningsdistributie;3;vakopleiding
+25766;Eerste monteur middenspanningsdistributie;3;vakopleiding
+25767;Monteur datadistributie;2;basisberoepsopleiding
+25768;Monteur gas-, water- of warmtedistributie;2;basisberoepsopleiding
+25769;Monteur laagspanningsdistributie;2;basisberoepsopleiding
+25770;Monteur middenspanningsdistributie;2;basisberoepsopleiding
+25275;Technicus data;4;middenkaderopleiding
+25276;Technicus elektrotechniek;4;middenkaderopleiding
+25277;Technicus gas;4;middenkaderopleiding
+25590;Technicus water;4;middenkaderopleiding
+25278;Isolatiemonteur;2;basisberoepsopleiding
+25279;Opmeter technische isolatie;3;vakopleiding
+25559;Airco/warmtepompmonteur;2;basisberoepsopleiding
+25560;Technicus maintenance koude- en klimaatsystemen;4;middenkaderopleiding
+25561;Eerste monteur koude- en klimaatsystemen;3;vakopleiding
+25562;Servicemonteur koude- en klimaatsystemen;3;vakopleiding
+25563;Monteur koude- en klimaatsystemen;2;basisberoepsopleiding
+25339;Eerste monteur elektrotechnische systemen;3;vakopleiding
+25340;Eerste monteur mechatronica;3;vakopleiding
+25341;Monteur elektrotechnische systemen;2;basisberoepsopleiding
+25342;Monteur mechatronica;2;basisberoepsopleiding
+25343;Technicus elektrotechnische systemen;4;middenkaderopleiding
+25344;Technicus mechatronica systemen;4;middenkaderopleiding
+25286;Allround constructiewerker;3;vakopleiding
+25287;Allround lasser;3;vakopleiding
+25288;Allround pijpenbewerker;3;vakopleiding
+25289;Allround plaatwerker;3;vakopleiding
+25294;Scheepsbouwer;3;vakopleiding
+25290;Basislasser;2;basisberoepsopleiding
+25291;Constructiewerker;2;basisberoepsopleiding
+25292;Pijpenbewerker;2;basisberoepsopleiding
+25293;Plaatwerker;2;basisberoepsopleiding
+25295;Scheepsmetaalbewerker;2;basisberoepsopleiding
+25572;Constructie- en plaattechnoloog;4;middenkaderopleiding
+25296;Commercieel technicus engineering;4;middenkaderopleiding
+25297;Technicus engineering;4;middenkaderopleiding
+25345;Allround operationeel technicus;4;middenkaderopleiding
+25346;Operationeel technicus;3;vakopleiding
+25623;Verspaner;2;basisberoepsopleiding
+25624;Allround precisieverspaner;3;vakopleiding
+25625;Instrumentmaker;3;vakopleiding
+25626;Researchinstrumentmaker;4;middenkaderopleiding
+25627;Verspaningstechnoloog;4;middenkaderopleiding
+25802;Operator C;4;middenkaderopleiding
+25304;Eerste monteur service en onderhoud elektrotechniek en instrumentatie;3;vakopleiding
+25305;Eerste monteur service en onderhoud gasturbines;3;vakopleiding
+25306;Eerste monteur service en onderhoud werktuigbouw;3;vakopleiding
+25821;Eerste monteur service en onderhoud werktuigkundige installaties;3;middenkaderopleiding
+25308;Monteur service en onderhoud installaties en systemen;2;basisberoepsopleiding
+25309;Technicus service en onderhoud elektrotechniek en instrumentatie;4;middenkaderopleiding
+25310;Technicus service en onderhoud werktuigbouw;4;middenkaderopleiding
+25825;Technicus service en onderhoud werktuigkundige installaties;4;middenkaderopleiding
+25312;Tekenaar constructeur;4;middenkaderopleiding
+25313;Tekenaar ontwerper elektrotechniek;4;middenkaderopleiding
+25314;Tekenaar ontwerper werktuigkundige installaties;4;middenkaderopleiding
+25315;Tekenaar werktuigbouw;3;vakopleiding
+25316;Tekenaar werktuigkundige installaties;3;vakopleiding
+25317;Kunststofbewerker vliegtuigbouw;2;basisberoepsopleiding
+25318;Plaatwerker vliegtuigbouw;2;basisberoepsopleiding
+25319;Samenbouwer vliegtuigbouw;2;basisberoepsopleiding
+25320;Constructie repair specialist;3;vakopleiding
+25323;Technicus avionica;4;middenkaderopleiding
+25324;Technicus mechanica;4;middenkaderopleiding
+25321;Eerste monteur vliegtuigonderhoud;3;vakopleiding
+25322;Monteur vliegtuigonderhoud;2;basisberoepsopleiding
+25347;Eerste monteur dakbedekking;3;vakopleiding
+25834;Eerste monteur utiliteit;3;vakopleiding
+25835;Eerste monteur woning;3;vakopleiding
+25350;Monteur werktuigkundige installaties;2;basisberoepsopleiding
+25837;Middenkaderfunctionaris smart industry;4;middenkaderopleiding
+25044;Allround laborant;3;vakopleiding
+25045;Biologisch medisch analist;4;middenkaderopleiding
+25046;Chemisch-fysisch analist;4;middenkaderopleiding
+25047;Audicien;4;middenkaderopleiding
+25548;Creatief vakman;4;middenkaderopleiding
+25069;Basisgoudsmid;3;vakopleiding
+25070;Goudsmid;4;middenkaderopleiding
+25071;Zilversmid;4;middenkaderopleiding
+25072;Juwelier;4;middenkaderopleiding
+25073;Medewerker Juwelier;3;vakopleiding
+25629;Medewerker Steriele Medische Hulpmiddelen;3;vakopleiding
+25630;Allround Medewerker Optiek;3;vakopleiding
+25631;Opticien;4;middenkaderopleiding
+25632;Verkoopmedewerker Optiek;2;basisberoepsopleiding
+25057;Leestenmaker;3;vakopleiding
+25058;Orthopedisch Schoentechnicus;4;middenkaderopleiding
+25059;Schoentechnisch Voorzieningenmaker;2;basisberoepsopleiding
+25074;Orthopedisch Technicus;4;middenkaderopleiding
+25075;Orthopedisch Technisch Medewerker;3;vakopleiding
+25663;Pianotechnicus;4;middenkaderopleiding
+25061;Maatschoenmaker;4;middenkaderopleiding
+25063;Schoenhersteller 3;3;vakopleiding
+25064;Zadel- en tuigenmaker;3;vakopleiding
+25062;Schoenhersteller 2;2;basisberoepsopleiding
+25664;Tandtechnicus kroon- en brugwerk;4;middenkaderopleiding
+25665;Tandtechnicus prothese;4;middenkaderopleiding
+25666;Tandtechnisch medewerker basistechnieken;3;vakopleiding
+25667;Technisch Oogheelkundig Assistent;4;middenkaderopleiding
+25076;Medewerker Uurwerktechniek;3;vakopleiding
+25077;Uurwerktechnicus;4;middenkaderopleiding
+25508;Vormenmaker;3;vakopleiding
+25716;Allround medewerker AV-productie;3;vakopleiding
+25717;AV-specialist;4;middenkaderopleiding
+25718;Fotograaf;4;middenkaderopleiding
+25719;Medewerker fotografie;2;basisberoepsopleiding
+25591;Mediamaker;2;basisberoepsopleiding
+25592;Allround mediamaker;3;vakopleiding
+25199;Mediamanager;4;middenkaderopleiding
+25200;Mediaredactiemedewerker;4;middenkaderopleiding
+25633;Mediavormgever;4;middenkaderopleiding
+25798;Allround podium- en evenemententechnicus;4;middenkaderopleiding
+25799;Medewerker podium- en evenemententechniek;2;basisberoepsopleiding
+25800;Podium- en evenemententechnicus;3;vakopleiding
+25207;Basismedewerker printmedia;2;basisberoepsopleiding
+25208;Drukker;3;vakopleiding
+25209;Nabewerker;3;vakopleiding
+25810;Medewerker productpresentatie;2;basisberoepsopleiding
+25811;Ruimtelijk vormgever;4;middenkaderopleiding
+25213;Allround signmaker;3;vakopleiding
+25634;Signspecialist;4;middenkaderopleiding
+25214;Medewerker sign;2;basisberoepsopleiding
+25216;Allround stand- en decorbouwer;3;vakopleiding
+25217;Stand- en decorbouwer;2;basisberoepsopleiding
+25604;Software developer;4;middenkaderopleiding
+25605;Allround medewerker IT systems and devices;3;vakopleiding
+25606;Expert IT systems and devices;4;middenkaderopleiding
+25607;Medewerker ICT support;2;basisberoepsopleiding
+25712;Adviseur mobiliteitsbranche;3;vakopleiding
+25713;Manager mobiliteitsbranche;4;middenkaderopleiding
+25593;Assemblagetechnicus;2;basisberoepsopleiding
+25594;Eerste Carrosseriebouwer;3;vakopleiding
+25595;Carrosseriebouwer;2;basisberoepsopleiding
+25223;Eerste Caravantechnicus;3;vakopleiding
+25221;Caravantechnicus;2;basisberoepsopleiding
+25225;Autoschadehersteller;2;basisberoepsopleiding
+25226;Eerste Autoschadehersteller;3;vakopleiding
+25227;Eerste Autoschadetechnicus;3;vakopleiding
+25714;Autospuiter;2;basisberoepsopleiding
+25715;Eerste Autospuiter;3;vakopleiding
+25230;Eerste Fietstechnicus;3;vakopleiding
+25231;Fietstechnicus;2;basisberoepsopleiding
+25670;Technisch specialist voertuigen en mobiele werktuigen;4;middenkaderopleiding
+25668;Basis technicus voertuigen en mobiele werktuigen;2;basisberoepsopleiding
+25669;Allround technicus voertuigen en mobiele werktuigen;3;vakopleiding
+25830;Eerste verbrandingsmotortechnicus;3;vakopleiding
+25831;Technisch specialist verbrandingsmotoren;4;middenkaderopleiding
+25832;Verbrandingsmotortechnicus;2;basisberoepsopleiding
+25636;Luchtvaartdienstverlener;4;middenkaderopleiding
+25671;Chauffeur wegvervoer;2;basisberoepsopleiding
+25393;Coördinator havenlogistiek;3;vakopleiding
+25394;Manager havenlogistiek;4;middenkaderopleiding
+25395;Medewerker havenlogistiek;2;basisberoepsopleiding
+25396;Coördinator Havenoperaties;4;middenkaderopleiding
+25397;Gevorderd medewerker Havenoperaties;3;vakopleiding
+25398;Medewerker Havenoperaties;2;basisberoepsopleiding
+25774;Logistiek medewerker;2;basisberoepsopleiding
+25775;Logistiek teamleider;3;vakopleiding
+25778;Air cargo specialist;4;middenkaderopleiding
+25776;Logistiek supervisor;4;Middenkaderopleiding
+25777;Specialist transport en logistiek ;4;Middenkaderopleiding
+25596;Medewerker maritieme techniek;2;basisberoepsopleiding
+25597;Allround medewerker maritieme techniek;3;vakopleiding
+25598;Engineer maritieme techniek;4;middenkaderopleiding
+25793;Aviation operations specialist;4;Middenkaderopleiding
+25672;Chauffeur openbaar vervoer;2;basisberoepsopleiding
+25673;Touringcarchauffeur/reisleider;3;vakopleiding
+25674;Taxichauffeur;2;basisberoepsopleiding
+25675;Touringcarchauffeur;2;basisberoepsopleiding
+25613;Machinist railvervoer;3;vakopleiding
+25676;Schipper rondvaartboot beperkt vaargebied;2;basisberoepsopleiding
+25610;Matroos binnenvaart;2;basisberoepsopleiding
+25611;Schipper binnenvaart;3;vakopleiding
+25612;Kapitein binnenvaart;4;middenkaderopleiding
+25635;Bootman;3;vakopleiding
+25519;Schipper-machinist beperkt werkgebied;2;basisberoepsopleiding
+25677;Maritiem officier kleine schepen nautisch, koopvaardij;3;vakopleiding
+25678;Maritiem officier kleine schepen nautisch, visserij;3;vakopleiding
+25679;Maritiem officier kleine schepen technisch;3;vakopleiding
+25680;Maritiem officier alle schepen nautisch, koopvaardij;4;middenkaderopleiding
+25681;Maritiem officier alle schepen nautisch, waterbouw;4;middenkaderopleiding
+25682;Maritiem officier alle schepen nautisch, visserij ;4;middenkaderopleiding
+25683;Maritiem officier alle schepen technisch;4;middenkaderopleiding
+25640;Stuurman-werktuigkundige zeevisvaart SW6 ;2;basisberoepsopleiding
+25809;Retailspecialist;3;vakopleiding
+25684;Assistant Fashion Tailor;3;vakopleiding
+25685;Fashion Retailer;3;vakopleiding
+25686;Fashion Tailor;4;middenkaderopleiding
+25687;Fashion Designer ;4;middenkaderopleiding
+25688;Fashion Product Coordinator  ;4;middenkaderopleiding
+25689;Basismedewerker fashion;2;basisberoepsopleiding
+25771;Interieuradviseur;4;middenkaderopleiding
+25160;Leidinggevende team/afdeling/project;4;specialistenopleiding
+25161;Technisch Leidinggevende;4;specialistenopleiding
+25807;Retailmanager;4;middenkaderopleiding
+25165;Vakman-ondernemer;4;specialistenopleiding
+25166;Ondernemer retail;4;middenkaderopleiding
+25808;Retailmedewerker;2;basisberoepsopleiding
+25131;Bibliotheekmedewerker;4;middenkaderopleiding
+25132;(Junior) accountmanager;4;middenkaderopleiding
+25133;Assistent-manager internationale handel;4;middenkaderopleiding
+25136;Intercedent;4;middenkaderopleiding
+25137;Vestigingsmanager groothandel;4;middenkaderopleiding
+25134;Commercieel medewerker;3;vakopleiding
+25135;Contactcenter medewerker;3;vakopleiding
+25749;Medewerker evenementenorganisatie;4;middenkaderopleiding
+25723;Allround Assistant Business Services;3;vakopleiding
+25724;Assistant Business Services;2;basisberoepsopleiding
+25725;Business Administration & Control Specialist;4;middenkaderopleiding
+25726;Legal, Insurance & HR Services Specialist;4;middenkaderopleiding
+25727;Marketing & Communication Specialist;4;middenkaderopleiding
+25728;Office & Management Support Specialist;4;middenkaderopleiding
+25690;Beveiliger 2;2;basisberoepsopleiding
+25691;Beveiliger 3;3;vakopleiding
+25409;Handhaver toezicht en veiligheid;3;vakopleiding
+25410;Medewerker toezicht en veiligheid;2;basisberoepsopleiding
+25411;Coördinator buurt, onderwijs en sport;4;middenkaderopleiding
+25412;Coördinator sport- en bewegingsagogie;4;middenkaderopleiding
+25413;Coördinator sport, bewegen en gezondheid;4;middenkaderopleiding
+25414;Coördinator sportinstructie, training en coaching;4;middenkaderopleiding
+25415;Sport- en bewegingsleider;3;vakopleiding
+25599;Aankomend medewerker grondoptreden;2;basisberoepsopleiding
+25600;Aankomend onderofficier grondoptreden;3;vakopleiding
+25601;Aankomend medewerker maritiem;2;basisberoepsopleiding
+25602;Aankomend onderofficier maritiem;3;vakopleiding
+25641;Kapper;2;basisberoepsopleiding
+25642;Haarstylist dame;3;vakopleiding
+25643;Haarstylist heer;3;vakopleiding
+25644;Salonmanager dame;4;middenkaderopleiding
+25645;Salonmanager heer;4;middenkaderopleiding
+25692;Allround make-up and hair artist;4;middenkaderopleiding
+25403;Allround Schoonheidsspecialist;4;middenkaderopleiding
+25404;Schoonheidsspecialist;3;vakopleiding
+25693;Medisch Pedicure;4;middenkaderopleiding
+25694;Pedicure;3;vakopleiding
+25168;Gastheer/-vrouw;2;basisberoepsopleiding
+25169;Gastronoom/sommelier;4;middenkaderopleiding
+25170;Leidinggevende bediening;4;middenkaderopleiding
+25171;Zelfstandig werkend gastheer/-vrouw;3;vakopleiding
+25614;Boulanger;4;specialistenopleiding
+25720;Leidinggevende bakkerij;4;middenkaderopleiding
+25721;Uitvoerend bakker;2;basisberoepsopleiding
+25722;Zelfstandig werkend bakker;3;vakopleiding
+25608;Facilitair leidinggevende;4;middenkaderopleiding
+25609;Allround medewerker facilitaire dienstverlening ;3;vakopleiding
+25176;1e Medewerker fastservice;3;vakopleiding
+25177;Manager/bedrijfsleider fastservice;4;middenkaderopleiding
+25178;Medewerker fastservice;2;basisberoepsopleiding
+25179;Gespecialiseerd kok;4;middenkaderopleiding
+25181;Leidinggevende keuken;4;middenkaderopleiding
+25182;Zelfstandig werkend kok;3;vakopleiding
+25180;Kok;2;basisberoepsopleiding
+25184;Manager/ondernemer horeca;4;middenkaderopleiding
+25185;Meewerkend horeca ondernemer;4;middenkaderopleiding
+25186;Ondernemer bakkerij;4;middenkaderopleiding
+25797;Patissier;4;specialistenopleiding
+25646;Leidinggevende leisure & hospitality;4;middenkaderopleiding
+25647;Leidinggevende travel & hospitality;4;middenkaderopleiding
+25648;Zelfstandig medewerker leisure & hospitality;3;vakopleiding
+25649;Zelfstandig medewerker travel & hospitality;3;vakopleiding
+25650;Apothekersassistent;4;middenkaderopleiding
+25651;Acteur;4;middenkaderopleiding
+25652;Danser;4;middenkaderopleiding
+25653;Musicalperformer;4;middenkaderopleiding
+25654;Muzikant;4;middenkaderopleiding
+25498;Helpende Zorg en Welzijn;2;basisberoepsopleiding
+25499;Medewerker facilitaire dienstverlening;2;basisberoepsopleiding
+25500;Medewerker sport en recreatie;2;basisberoepsopleiding
+25695;Doktersassistent;4;middenkaderopleiding
+25780;Begeleider maatschappelijke zorg;3;Vakopleiding
+25779;Persoonlijk begeleider maatschappelijke zorg;4;Middenkaderopleiding
+25655;Mbo-Verpleegkundige;4;middenkaderopleiding
+25696;Pedagogisch medewerker kinderopvang;3;vakopleiding
+25697;Gespecialiseerd pedagogisch medewerker;4;middenkaderopleiding
+25698;Onderwijsassistent;4;middenkaderopleiding
+25801;Praktijkopleider;4;Specialistenopleiding
+25615;Sociaal werker;4;middenkaderopleiding
+25699;Tandartsassistent;4;middenkaderopleiding
+25656;Verzorgende IG;3;vakopleiding
+25575;Instructeur mbo;4;specialistenopleiding
+25700;Ondernemer vers;4;middenkaderopleiding
+25566;Productieleider versindustrie;4;middenkaderopleiding
+25701;Medewerker vers;2;basisberoepsopleiding
+25702;Traiteur vers;3;vakopleiding
+25703;Vakbekwaam medewerker vers;3;vakopleiding
+25567;Allround medewerker versindustrie;3;vakopleiding
+25568;Medewerker versindustrie;2;basisberoepsopleiding
+25555;Medewerker agrarisch loonwerk;2;basisberoepsopleiding
+25556;Vakexpert agrarisch loonwerk;4;middenkaderopleiding
+25438;Vakexpert agrohandel en logistiek;4;middenkaderopleiding
+25439;Vakexpert biologisch-dynamische landbouw;4;middenkaderopleiding
+25534;Vakexpert teelt en groene technologie;4;middenkaderopleiding
+25535;Vakexpert veehouderij;4;middenkaderopleiding
+25557;Vakbekwaam medewerker agrarisch loonwerk;3;vakopleiding
+25434;Vakbekwaam medewerker agrohandel en logistiek;3;vakopleiding
+25536;Vakbekwaam medewerker teelt;3;vakopleiding
+25537;Vakbekwaam medewerker veehouderij;3;vakopleiding
+25430;Medewerker agrohandel en logistiek;2;basisberoepsopleiding
+25431;Medewerker teelt;2;basisberoepsopleiding
+25432;Medewerker veehouderij;2;basisberoepsopleiding
+25704;Bedrijfsleider/ondernemer bloem, groen en styling;4;middenkaderopleiding
+25705;Vakexpert bloem, groen en styling;4;middenkaderopleiding
+25706;Vakbekwaam medewerker bloem, groen en styling;3;vakopleiding
+25707;Medewerker bloem, groen en styling;2;basisberoepsopleiding
+25708;Boomverzorger;3;vakopleiding
+25538;Specialist vruchtbaarheid en voortplanting;4;specialistenopleiding
+25466;Specialist proefdierverzorging;4;specialistenopleiding
+25616;Medewerker groen en cultuurtechniek;2;basisberoepsopleiding
+25617;Opzichter/uitvoerder groene ruimte;4;middenkaderopleiding
+25618;Vakbekwaam hovenier;3;vakopleiding
+25619;Vakbekwaam medewerker groen en cultuurtechniek;3;vakopleiding
+25620;Vakbekwaam medewerker natuur, water en recreatie;3;vakopleiding
+25621;Medewerker hovenier;2;basisberoepsopleiding
+25622;Medewerker natuur, water en recreatie;2;basisberoepsopleiding
+25467;Hoefsmid;3;vakopleiding
+25709;Bedrijfsleider paardensport en -houderij;4;middenkaderopleiding
+25710;Instructeur paardensport en -houderij;4;middenkaderopleiding
+25711;Vakbekwaam medewerker paardensport en -houderij;3;vakopleiding
+25730;Bedrijfsleider dierverzorging;4;Middenkaderopleiding
+25731;Dierenartsassistent paraveterinair;4;Middenkaderopleiding
+25732;Medewerker dierverzorging;2;Basisberoepsopleiding
+25733;Proefdierverzorger;3;Vakopleiding
+25734;Zelfstandig medewerker dierverzorging;3;Vakopleiding
+25581;Onderzoeker leefomgeving;4;middenkaderopleiding
+25582;Adviseur leefomgeving;4;middenkaderopleiding
+25460;Medewerker voeding en technologie;2;basisberoepsopleiding
+25462;Vakexpert voeding en kwaliteit;4;middenkaderopleiding
+25463;Vakexpert voeding en technologie;4;middenkaderopleiding
+25464;Vakexpert voeding en voorlichting;4;middenkaderopleiding
+25461;Vakbekwaam medewerker voeding en technologie;3;vakopleiding
+25838;Persoonlijk begeleider zorgboerderij;4;middenkaderopleiding
+25740;Assistent bouwen, wonen en onderhoud;1;entreeopleiding
+25741;Assistent dienstverlening;1;entreeopleiding
+25742;Assistent horeca, voeding of voedingsindustrie;1;entreeopleiding
+25743;Assistent logistiek;1;entreeopleiding
+25744;Assistent metaal-, elektro- en installatietechniek;1;entreeopleiding
+25745;Assistent mobiliteitsbranche;1;entreeopleiding
+25746;Assistent plant, dier of groene omgeving;1;entreeopleiding
+25747;Assistent procestechniek;1;entreeopleiding
+25748;Assistent verkoop/retail;1;entreeopleiding
