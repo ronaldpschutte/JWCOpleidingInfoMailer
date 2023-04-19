@@ -7,37 +7,43 @@ using Microsoft.AspNetCore.Hosting;
 using System.Globalization;
 using System.IO;
 using MudBlazor;
-using JWCOpleidingInfoMailer.Component;
 using static MudBlazor.Colors;
+using static MudBlazor.CategoryTypes;
 
 namespace JWCOpleidingInfoMailer.Pages {
     public partial class Index {
-        [Inject] 
+        [Inject]
         private IDialogService DialogService { get; set; }
         [Inject]
-        public PotentialsService potentialsService { get; set; }
+        public IPotentialsService potentialsService { get; set; }
         [Inject]
-        public JWCOpleidingService jwcService { get; set; }
+        public IJWCOpleidingService jwcService { get; set; }
         [Inject]
-        public SBBService sBBService { get; set; }
+        public ISBBService sBBService { get; set; }
+
+        private MudAutocomplete<JWCOpleiding> JWCSearch;
+        private MudTable<PotentialStudentRow> gridStudents;
+        private MudTextField<string> SBBOpleidingNaam;
         private List<PotentialStudentRow> GridStudents { get; set; } = new List<PotentialStudentRow>();
         private PotentialStudentRow SelectedStudent { get; set; }
+        private int selectedRowNumber = -1;
         private JWCOpleiding SelectedOpleiding { get; set; }
+
         IList<IBrowserFile> files = new List<IBrowserFile>();
 
         protected async override System.Threading.Tasks.Task OnInitializedAsync() {
-            try 
+            try
             {
                 await jwcService.ReadSBBFile();
 
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.ToString());
                 throw;
             }
         }
-           
+
         private async Task UploadFile(IBrowserFile file)
         {
             try
@@ -70,20 +76,54 @@ namespace JWCOpleidingInfoMailer.Pages {
                 throw;
             }
         }
-        private void OpenForm(TableRowClickEventArgs<PotentialStudentRow> tr)
+        private void ShowDetail(TableRowClickEventArgs<PotentialStudentRow> tr)
         {
             SelectedStudent = (PotentialStudentRow)tr.Item;
-
+            if (JWCSearch != null)
+            {
+                SelectedOpleiding = null;
+                JWCSearch.Text = "";
+            }
             StateHasChanged();
-        }    
-        private async Task<IEnumerable<JWCOpleiding>> Search(string name)
+        }
+        private async Task<IEnumerable<JWCOpleiding>> Search(string nameSearch)
         {
-            if (string.IsNullOrEmpty(name))
+            if (string.IsNullOrEmpty(nameSearch))
                 return jwcService.JWCOpleidingen;
-            return jwcService.JWCOpleidingen.Where(x => 
-            x.Name.Contains(name, StringComparison.InvariantCultureIgnoreCase) &&
+            return jwcService.JWCOpleidingen.Where(x =>
+            x.Name.Contains(nameSearch, StringComparison.InvariantCultureIgnoreCase) &&
             x.Level == int.Parse(SelectedStudent.OpleidingNiveau));
         }
 
+
+        private string SelectedRowClassFunc(PotentialStudentRow element, int rowNumber)
+        {
+            if (selectedRowNumber == rowNumber)
+            {
+                selectedRowNumber = -1;
+                
+                return string.Empty;
+            }
+            else if (gridStudents.SelectedItem != null && gridStudents.SelectedItem.Equals(element))
+            {
+                selectedRowNumber = rowNumber;
+                
+                return "selected";
+            }
+            else
+            {
+                return string.Empty;
+            }
+        }
+        private void JWCOpleidingSelected(JWCOpleiding opleiding)
+        {
+            if (SelectedStudent != null)
+            {
+                SelectedOpleiding = opleiding;
+                SelectedStudent.JWCOpleidingId = opleiding.Id;
+
+                StateHasChanged();
+            }
+        }
     }
 }

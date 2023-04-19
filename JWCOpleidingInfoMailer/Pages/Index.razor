@@ -3,68 +3,110 @@
 <PageTitle>Index</PageTitle>
 <div style="height:100vh; display:flex;flex-direction:column;">
 
-<MudForm Style="border: 5px solid #594ae2ff;padding: 50px; margin: 20px;border-radius: 25px; top:-50px; display:flex; flex-direction:row;align-items:center; justify-content: space-around">
+    <MudForm Style="border: 5px solid #594ae2ff;padding: 50px; margin: 20px;border-radius: 25px; top:-50px; display:flex; flex-direction:row;align-items:center; justify-content: space-around">
         <MudFileUpload T="IBrowserFile" FilesChanged="UploadFile" MaximumFileCount="1">
-        <ButtonTemplate>
-            <MudButton HtmlTag="label"
-                       Variant="Variant.Filled"
-                       Color="Color.Primary"
-                       StartIcon="@Icons.Material.Filled.AttachFile"
-                       for="@context">
-                Upload CSV File
-            </MudButton>
-        </ButtonTemplate>
-    </MudFileUpload>
+            <ButtonTemplate>
+                <MudButton HtmlTag="label"
+                           Variant="Variant.Filled"
+                           Color="Color.Primary"
+                           StartIcon="@Icons.Material.Filled.AttachFile"
+                           for="@context">
+                    Upload CSV File
+                </MudButton>
+            </ButtonTemplate>
+        </MudFileUpload>
 
-@if (files != null)
-{
-    <MudText Typo="@Typo.h6">@files.Count() File@(files.Count() == 1 ? "" : "s")</MudText>
-
-        @foreach (var file in files)
+        @if (files != null)
         {
+            <MudText Typo="@Typo.h6">@files.Count() File@(files.Count() == 1 ? "" : "s")</MudText>
+
+            @foreach (var file in files)
+            {
 
                 <MudText Typo="@Typo.h6">@file.Name</MudText>
                 <MudText Typo="@Typo.h6">@file.Size bytes</MudText>
+            }
         }
-}
-</MudForm>
-
-@if (SelectedStudent != null)
-{
-    <MudForm Style="border: 5px solid #594ae2ff;padding: 50px; margin: 20px;border-radius: 25px; overflow:scroll">
-        <MudText>@SelectedStudent.Email @SelectedStudent.OpleidingNiveau @SelectedStudent.OpleidingNaam</MudText>
-        <MudAutocomplete T="JWCOpleiding" @bind-Value="SelectedOpleiding" SearchFunc="@Search"
-                     ToStringFunc="@(e=> e==null?null : $"{e.Name} Id:({e.Id}) Niveau:({e.Level})")">
-        </MudAutocomplete>
     </MudForm>
-}
+    @if (files.Count > 0)
+    {
+        <MudForm Style="border: 5px solid #594ae2ff;padding: 50px; margin: 20px;border-radius: 25px;">
+            @if (SelectedStudent != null)
+            {
+                <div style="display:flex; flex-direction:row;align-items:center; justify-content: space-between;">
+                    <MudText Typo="@Typo.h6" Style="padding-right:50px;">@SelectedStudent.Email</MudText>
+                    <MudTextField @ref="SBBOpleidingNaam" T="string" Variant="Variant.Text" Style="font-size:xx-large;font-weight:500"
+                          Text="@SelectedStudent?.OpleidingNaam" Adornment="Adornment.End" AdornmentIcon="@Icons.Material.Filled.Api"
+                          OnAdornmentClick="@(() => SBBOpleidingNaam.SelectRangeAsync(0, SelectedStudent.OpleidingNaam.Length))" />
 
-@if(potentialsService.Students != null)
-{
-    <MudForm>
-    <MudTable Items="@GridStudents" Hover="true" Breakpoint="Breakpoint.Sm" LoadingProgressColor="Color.Info" T="PotentialStudentRow" OnRowClick="OpenForm">
-        <HeaderContent>
-            <MudTh>Voornaam</MudTh>
-            <MudTh>Tussenvoegsel</MudTh>
-            <MudTh>Achternaam</MudTh>
-            <MudTh>Email</MudTh>
-            <MudTh>Crebonummer</MudTh>
-            <MudTh>SBB Titel</MudTh>
-            <MudTh>SBB Niveau</MudTh>
-            <MudTh>JWC Match</MudTh>
-        </HeaderContent>
-        <RowTemplate>
-            <MudTd DataLabel="Voornaam">@context.Voornaam</MudTd>
-            <MudTd DataLabel="Tussenvoegsel">@context.Tussenvoegsel</MudTd>
-            <MudTd DataLabel="Achternaam">@context.Achternaam</MudTd>
-            <MudTd DataLabel="Email">@context.Email</MudTd>
-            <MudTd DataLabel="Crebonummer">@context.Crebonummer</MudTd>
-            <MudTd DataLabel="SBB Titel">@context.OpleidingNaam</MudTd>
-            <MudTd DataLabel="SBB Niveau">@context.OpleidingNiveau</MudTd>
-            <MudTd DataLabel="JWC Match">@context.Match</MudTd>
-        </RowTemplate>
-    </MudTable>
-    </MudForm>
-    
-}
+                    <MudText Typo="@Typo.h6" Style="padding-left:50px">@SelectedStudent?.OpleidingNiveau</MudText>
+                </div>
+                <div style="display:flex; flex-direction:row;align-items:center; justify-content: space-around">
+                    <MudAutocomplete @ref="JWCSearch" Style="max-width:80%" T="JWCOpleiding" SearchFunc="@Search" ValueChanged="JWCOpleidingSelected"
+                             ToStringFunc="@(e=> e==null?null : $"{e.Name}")">
+                        @*Id:({e.Id}) Niveau:({e.Level})*@
+                    </MudAutocomplete>
+                    @if (SelectedOpleiding != null)
+                    {
+                        <MudText Style="padding-right:20px">Id: @SelectedOpleiding?.Id</MudText>
+                        <MudText>Lvl: @SelectedOpleiding?.Level</MudText>
+                    }
+                </div>
+            }
+            else
+            {
+                <MudText>Selecteer een student</MudText>
+            }
+
+        </MudForm>
+    }
+    else
+    {
+        <MudForm Style="border: 5px solid #594ae2ff;padding: 50px; margin: 20px;border-radius: 25px;">
+            <MudText>Selecteer een CSV bestand</MudText>
+        </MudForm>
+    }
+    @if (potentialsService.Students != null)
+    {
+        <MudForm>
+            <MudTable @ref="gridStudents" Items="@GridStudents" Hover="true" Breakpoint="Breakpoint.Sm" LoadingProgressColor="Color.Info" T="PotentialStudentRow" OnRowClick="ShowDetail" RowClassFunc="@SelectedRowClassFunc">
+                <HeaderContent>
+                    <MudTh>Voornaam</MudTh>
+                    <MudTh>Tussenvoegsel</MudTh>
+                    <MudTh>Achternaam</MudTh>
+                    <MudTh>Email</MudTh>
+                    <MudTh>Crebonummer</MudTh>
+                    <MudTh>SBB Niveau</MudTh>
+                    <MudTh>SBB Titel</MudTh>
+                    <MudTh>JWC Match</MudTh>
+                    <MudTh>JWC Titel</MudTh>
+                </HeaderContent>
+                <RowTemplate>
+                    <MudTd DataLabel="Voornaam">@context.Voornaam</MudTd>
+                    <MudTd DataLabel="Tussenvoegsel">@context.Tussenvoegsel</MudTd>
+                    <MudTd DataLabel="Achternaam">@context.Achternaam</MudTd>
+                    <MudTd DataLabel="Email">@context.Email</MudTd>
+                    <MudTd DataLabel="Crebonummer">@context.Crebonummer</MudTd>
+                    <MudTd DataLabel="SBB Niveau">@context.OpleidingNiveau</MudTd>
+                    <MudTd DataLabel="SBB Titel">@context.OpleidingNaam</MudTd>
+                    <MudTd DataLabel="JWC Match">@context.JWCOpleidingId.ToString()</MudTd>
+                    <MudTd DataLabel="JWC Titel">@jwcService.JWCOpleidingen.Where(o => o.Id == context.JWCOpleidingId).Select(s => s.Name).FirstOrDefault() </MudTd>
+                </RowTemplate>
+            </MudTable>
+        </MudForm>
+
+    }
 </div>
+<style>
+    .selected {
+        background-color: #594ae2ff !important;
+    }
+
+        .selected > td {
+            color: white !important;
+        }
+
+            .selected > td .mud-input {
+                color: white !important;
+            }
+</style>

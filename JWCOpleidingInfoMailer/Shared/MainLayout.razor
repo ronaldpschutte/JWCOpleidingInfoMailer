@@ -8,8 +8,14 @@
     <MudAppBar Elevation="0">
         <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
         <MudSpacer />
+        <MudLink Href="/TIG opdracht sollicitant software development met Analyse.docx" Target="_blank" Style="color:#fff !important; ">Opdracht Analyse</MudLink><br />
+        <MudSpacer />
+        <MudLink Href="/studenten.csv" Target="_blank" Style="color:#fff !important; ">Het Studenten Bestand</MudLink><br />
+        <MudLink Href="/SBBFile/crebolijst2022.csv" Target="_blank" Style="color:#fff !important; ">Het SBB Bestand</MudLink><br />
+
+        <MudSpacer />
         <MudIconButton Icon="@Icons.Custom.Brands.MudBlazor" Color="Color.Inherit" Link="https://mudblazor.com/" Target="_blank" />
-        <MudIconButton Icon="@Icons.Custom.Brands.GitHub" Color="Color.Inherit" Link="https://github.com/MudBlazor/MudBlazor/" Target="_blank" />
+        <MudIconButton Icon="@Icons.Custom.Brands.GitHub" Color="Color.Inherit" Link="https://github.com/ronaldpschutte" Target="_blank" />
     </MudAppBar>
     <MudDrawer @bind-Open="_drawerOpen" Elevation="1">
         <MudDrawerHeader>

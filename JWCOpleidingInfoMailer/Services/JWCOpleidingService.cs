@@ -1,13 +1,19 @@
 using CsvHelper.Configuration;
 using CsvHelper;
-using JWCOpleidingInfoMailer.Data;
 using JWCOpleidingInfoMailer.Models;
 using Microsoft.AspNetCore.Components.Forms;
 using System.Globalization;
 
 namespace JWCOpleidingInfoMailer.Services
 {
-    public class JWCOpleidingService
+    public interface IJWCOpleidingService
+    {
+        List<JWCOpleiding> JWCOpleidingen { get; set; }
+
+        Task ReadSBBFile();
+    }
+
+    public class JWCOpleidingService : IJWCOpleidingService
     {
 
         public List<JWCOpleiding> JWCOpleidingen { get; set; } = new List<JWCOpleiding> { };

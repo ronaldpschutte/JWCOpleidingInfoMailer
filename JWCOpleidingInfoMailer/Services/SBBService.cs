@@ -1,13 +1,20 @@
 using CsvHelper.Configuration;
 using CsvHelper;
-using JWCOpleidingInfoMailer.Data;
 using JWCOpleidingInfoMailer.Models;
 using Microsoft.AspNetCore.Components.Forms;
 using System.Globalization;
 
 namespace JWCOpleidingInfoMailer.Services
 {
-    public class SBBService
+    public interface ISBBService
+    {
+        List<SBBCreboBeschrijving> SBBOpleidingen { get; set; }
+
+        Task ReadSBBFile();
+        Task UploadFile(IBrowserFile file);
+    }
+
+    public class SBBService : ISBBService
     {
 
         public List<SBBCreboBeschrijving> SBBOpleidingen { get; set; } = new List<SBBCreboBeschrijving> { };
@@ -25,8 +32,8 @@ namespace JWCOpleidingInfoMailer.Services
             try
             {
                 var path = $"{_environment.WebRootPath}\\SBBFile\\crebolijst2022.csv";
-            
-            
+
+
                 var config = new CsvConfiguration(CultureInfo.InvariantCulture)
                 {
                     Delimiter = ";",
@@ -50,12 +57,12 @@ namespace JWCOpleidingInfoMailer.Services
                 throw;
             }
         }
-    
+
 
 
         public async Task UploadFile(IBrowserFile file)
         {
-            
+
             if (file != null)
             {
                 Stream stream = file.OpenReadStream();

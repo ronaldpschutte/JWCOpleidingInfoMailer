@@ -10,6 +10,6 @@
         public string? Crebonummer { get; set; }
         public string? OpleidingNaam { get; set;}
         public string? OpleidingNiveau { get; set; }
-        public Boolean? Match { get; set; }
+        public int? JWCOpleidingId { get; set; }
     }
 }

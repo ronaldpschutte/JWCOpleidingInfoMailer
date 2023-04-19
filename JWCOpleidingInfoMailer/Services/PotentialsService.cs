@@ -7,7 +7,14 @@ using System.Runtime.CompilerServices;
 
 namespace JWCOpleidingInfoMailer.Services
 {
-    public class PotentialsService
+    public interface IPotentialsService
+    {
+        List<PotentialStudentCSV> Students { get; set; }
+
+        Task UploadFile(IBrowserFile file);
+    }
+
+    public class PotentialsService : IPotentialsService
     {
 
         public List<PotentialStudentCSV> Students { get; set; }
@@ -18,7 +25,7 @@ namespace JWCOpleidingInfoMailer.Services
             _environment = webHostEnvironment;
         }
 
-        public async Task UploadFile(IBrowserFile file) 
+        public async Task UploadFile(IBrowserFile file)
         {
             try
             {
@@ -54,8 +61,8 @@ namespace JWCOpleidingInfoMailer.Services
                         //fs.Close();
                     }
 
-                    }
                 }
+            }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.ToString());

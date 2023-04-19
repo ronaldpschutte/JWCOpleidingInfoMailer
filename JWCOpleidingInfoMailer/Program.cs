@@ -11,9 +11,9 @@ StaticWebAssetsLoader.UseStaticWebAssets(builder.Environment, builder.Configurat
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
-builder.Services.AddSingleton<SBBService>();
-builder.Services.AddSingleton<PotentialsService>(); 
-    builder.Services.AddSingleton<JWCOpleidingService>(); 
+builder.Services.AddSingleton<ISBBService,SBBService>();
+builder.Services.AddSingleton<IPotentialsService,PotentialsService>(); 
+    builder.Services.AddSingleton<IJWCOpleidingService,JWCOpleidingService>(); 
 builder.Services.AddMudServices();
 
 var app = builder.Build();
