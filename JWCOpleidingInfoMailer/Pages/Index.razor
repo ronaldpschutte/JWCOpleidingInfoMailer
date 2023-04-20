@@ -35,15 +35,15 @@
             {
                 <div style="display:flex; flex-direction:row;align-items:center; justify-content: space-between;">
                     <MudText Typo="@Typo.h6" Style="padding-right:50px;">@SelectedStudent.Email</MudText>
-                    
-                    @{
+                    <MudText Typo="@Typo.h6">@SelectedStudent.OpleidingNaam</MudText>
+                    @* @{
                         foreach (var word in SelectedStudent.OpleidingNaam.Split(' '))
                         {                    
                             <MudTextField @ref="SBBOpleidingNaam" T="string" Variant="Variant.Text" Style="font-size:xx-large;font-weight:500"
                                   Text="@word" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Api"
                                   OnAdornmentClick="@(() => SBBOpleidingNaam.SelectRangeAsync(0, word.Length))" />
                         }                   
-                    }
+                    }*@
 
                     <MudText Typo="@Typo.h6" Style="padding-left:50px">@SelectedStudent?.OpleidingNiveau</MudText>
                 </div>
